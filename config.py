@@ -7,7 +7,7 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
+API_ID = int(getenv("7130447841"))
 API_HASH = getenv("API_HASH")
 
 # Get your token from @BotFather on Telegram.
@@ -39,7 +39,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+01Npc3a6nVYwYzU1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+01Npc3a6nVYwYzU1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Radhe_music_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -77,7 +77,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/6db32c63c677905cc5cc3.jpg"
+    "START_IMG_URL", "https://graph.org/file/425086b50bbb328cac949.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/bc7f8903e60fbfafa2eb4.jpg"
